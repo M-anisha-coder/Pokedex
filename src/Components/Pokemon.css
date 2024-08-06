@@ -1,0 +1,33 @@
+.Heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(37, 169, 37);
+}
+.searchHeading{
+    margin-bottom: 20px;
+    margin-left: 43%;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.grid {
+    display: grid;
+    gap: 5rem;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.Power {
+    display: grid;
+    gap: 0.8rem;
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
