@@ -1,8 +1,19 @@
-# PokeDex
+# Pokémon Pokedex 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Pokedex Web application built using modern ReactJS and the [PokeAPI](https://pokeapi.co/).
+---
+## 🧰 Tech Stack
 
-Currently, two official plugins are available:
+- **Frontend**: JavaScript, ReactJS
+- **Styling**: CSS, Tailwind CSS.
+- **API**: Fetch data from [PokeAPI](https://pokeapi.co/)
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- Fetch and display Pokémon data by name or National Dex number
+- Show details: types, abilities, stats, weight/height, and evolution chain
+- Search, filter functionalities
+- Favorite Pokémon: add/remove and persist via localStorage or backend
+- Responsive design: mobile-friendly layout
+
